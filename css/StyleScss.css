@@ -1,0 +1,15 @@
+.btn__open {
+  font-size: red;
+  color: rgb(20, 12, 163);
+}
+.btn__open:hover + .info__box {
+  display: block;
+}
+
+.info__box {
+  display: none;
+}
+
+.box__container {
+  margin-left: 400px;
+}/*# sourceMappingURL=StyleScss.css.map */

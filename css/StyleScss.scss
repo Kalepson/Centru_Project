@@ -1,0 +1,17 @@
+$color__title:rgb(20, 12, 163);
+$foneSize_title: 38px;
+
+
+.btn__open{
+    font-size: red;
+    color: $color__title;
+    &:hover + .info__box{
+        display: block;
+    }
+}
+.info__box{
+    display: none;
+}
+.box__container{
+    margin-left: 400px;
+}
